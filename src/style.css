@@ -41,7 +41,7 @@
 
 .container form .inputBox span {
     display: block;
-    color: #999;
+    color: #f64fa5;
     padding-bottom: 5px;
 }
 .container form .inputBox input,
@@ -67,6 +67,7 @@
     margin-top: 20px;
     padding: 10px;
     color: #fff;
+    border-radius: 10px;
     cursor:pointer;
     transition: .2s linear;
     break-before: 2s linear;
@@ -76,3 +77,8 @@
     opacity: .8;
 
 }
+
+.isValid form .textContent{
+    color: #f64fa5;
+}
+

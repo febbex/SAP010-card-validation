@@ -15,10 +15,11 @@
       <img src="assets/icone.png" alt="">
     </div>
 
-    <form action="">
+    <form id="creditCardForm">
       <div class="inputBox">
         <span>Número</span>
-        <input type="text" maxlength="16" class="número-input">
+        <input type="text" maxlength="16" class="form-control" id="creditCardNumber" />
+        <div id="validationResult"></div>
       </div>
       <div class="inputBox">
         <span>Nome</span>
@@ -41,7 +42,6 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-
           </select>
         </div>
         <div class="inputBox">
@@ -60,7 +60,6 @@
             <option value="2032">2032</option>
             <option value="2033">2033</option>
             <option value="2034">2034</option>
-
           </select>
         </div>
         <div class="inputBox">
@@ -70,8 +69,6 @@
       </div>
       <input type="submit" value="Enviar" class="Enviar-btn">
     </form>
-
-
   </div>
 
   <header></header>
