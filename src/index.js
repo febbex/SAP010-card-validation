@@ -2,11 +2,11 @@ import validator from './validator.js';
 
 // Função para validar o formulários
 function validar(event) {
-  event.preventDefault();
+  event.preventDefault(); //evita enviar o formuário antes de validar 
   const ccNumberInput = document.getElementById('creditCardNumber');
   const validationResult = document.getElementById('validationResult');
 
-  const ccNumber = ccNumberInput.value.trim();
+  const ccNumber = ccNumberInput.value.trim(); //trim() barrar se tiver espaços em branco
   const isValid = validator.isValid(ccNumber);
   //const maskedNumber = validator.maskify(creditCardNumber);
   //ccNumberInput.value = maskedNumber;
@@ -20,7 +20,7 @@ function validar(event) {
   }
 };
 
-// Obter o form do formulário
+// Ref do formulário
 const form = document.getElementById('creditCardForm');
 
 // ao clicar enviar chama as funções de cima
