@@ -18,6 +18,7 @@ const validator = {
     return soma % 10 === 0; // Após o loop se a soma for divisível por 10 sem deixar resto o número do cartão é válido.
     // Se a soma não for divisível por 10 sem deixar resto, o retorno será false automaticamente
   },
+  //função pra mascarar os digítos do cartão no espelho
   maskify: function (creditCardNumber) {
     const digitosVisiveis = 4;
     const mascaraCaracteres = Math.max(creditCardNumber.length - digitosVisiveis, 0);
