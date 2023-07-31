@@ -11,14 +11,41 @@
 
 <body>
   <div class="container">
-    <div class="image">
-      <img src="assets/icone.png" alt="">
+    <div class="card-container">
+      <div class="front">
+        <div class="assets">
+          <img src="assets/chip.png" alt="">
+          <img src="assets/bandeira.png" alt="">
+        </div>
+        <div class="card-number-box">################</div>
+        <div class="flexbox">
+          <div class="box">
+            <span>card holder</span>
+            <div class="card-holder-name">Nome Completo</div>
+          </div>
+          <div class="box">
+            <span>expire</span>
+            <div class="expiration">
+              <span class="exp-month">mm</span>
+              <span class="exp-year">yy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="stripe"></div>
+        <div class="box">
+          <span>cvc</span>
+          <div class="cvc-box"></div>
+          <img src="assets/bandeira.png" alt="">
+        </div>
+      </div>
     </div>
 
     <form id="creditCardForm">
       <div class="inputBox">
         <span>Número</span>
-        <input type="text" maxlength="16" class="form-control" id="creditCardNumber" />
+        <input type="text" maxlength="16" class="form-control" id="creditCardNumber">
         <div id="validationResult"></div>
       </div>
       <div class="inputBox">
