@@ -102,7 +102,7 @@
     border-radius: 10px;
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
-    padding: 20px;
+    padding: 10px;
     transform:perspective(1000px) rotateY(0deg);
     transition: transform .4s ease-out;
 }
@@ -115,11 +115,11 @@
 }
 
 .container .card-container .front .assets img {
-    height: 80px;
+    height: 90px;
 }
 
 .container .card-container .front .card-number-box {
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 20px;
     color: #fff;
 }
@@ -171,7 +171,7 @@
     font-size: 15px;
 }
 .container .card-container .back .box .cvc-box{
-    height: 50px;
+    height: 60px;
     padding: 10px;
     margin-top: 5px;
     color: #333;
@@ -181,6 +181,6 @@
 }
 .container .card-container .back .box img{
     margin-top: 30;
-    height: 60px;
+    height: 70px;
 
 }
