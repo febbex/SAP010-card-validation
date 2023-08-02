@@ -9,12 +9,16 @@ function validar(event) {
   const ccNumber = ccNumberInput.value.trim();
   const isValid = validator.isValid(ccNumber);
 
+
   if (!ccNumber) {
-    validationResult.textContent = 'Por favor, preencha o número do cartão.';
+    validationResult.textContent = 'Por favor, preencha o número do cartão ✍️';
+    validationResult.style.color = 'red'; 
   } else if (isValid) {
-    validationResult.textContent = 'Parabéns, cartão validado!';
+    validationResult.textContent = 'Parabéns, cartão validado!👏';
+    validationResult.style.color = 'green';
   } else {
-    validationResult.textContent = 'Cartão inválido.';
+    validationResult.textContent = 'Cartão inválido, insira novamente☹️';
+    validationResult.style.color = 'red';
   }
 
   // Atualizar o espelho do cartão usando a função maskify do validator.js
