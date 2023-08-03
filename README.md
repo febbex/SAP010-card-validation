@@ -25,7 +25,7 @@ Pode ser utilizado para pagar o cineminha, livrarias, teatros, eventos e também
 
 O aplicativo foi desenvolvido utilizando (HTML, CSS e JavaScript) e implementa a funcionalidade de validar números de cartões de crédito a parir do algoritmo de Luhn.
 
-O usuário pode acessar o aplicativo através do link fornecido (http://127.0.0.1:5500/src/index.html). Ao abrir a página, ele encontrará um formulário com os seguintes campos:
+O usuário pode acessar o aplicativo através do link fornecido (https://febbex.github.io/SAP010-card-validation/src). Ao abrir a página, ele encontrará um formulário com os seguintes campos:
 
 ![gráfico primeira pg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWozcGJqYW5xOXd5YTN6enptcmFkam04ejZjd21hcnkzajg2ZXM1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qQwa9AbtXLuQEQEVTu/giphy.gif)
 
@@ -46,4 +46,4 @@ Se o número for válido, o aplicativo exibirá a mensagem "Parabéns, cartão v
 O app também notifica caso tente enviar com o campo de número vazio a mesagem exibida será "Por favor,preencha o número do cartão ✍️"
 
 # Acesse Cartão Cultura
-Link: http://127.0.0.1:5500/src/index.html
+Link: (https://febbex.github.io/SAP010-card-validation/src)
