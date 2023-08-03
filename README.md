@@ -9,6 +9,22 @@ Pode ser utilizado para pagar o cineminha, livrarias, teatros, eventos e também
 
 O aplicativo foi desenvolvido utilizando (HTML, CSS e JavaScript) e implementa a funcionalidade de validar números de cartões de crédito a parir do algoritmo de Luhn.
 
+#  Algoritmo de Luhn
+
+O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
+chamado de módulo 10, é um método de soma de verificação, usado para validar
+números de identificação, como o IMEI de telefones celulares, cartões de crédito
+etc.
+
+Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que
+contém apenas dígitos [0-9]); todos os números que ocupam uma posição par devem
+ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
+adicionar os dígitos do resultado; o número a verificar será válido se a soma de
+seus dígitos finais for um múltiplo de 10.
+
+![gráfico do algoritmo de
+Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+
 O usuário pode acessar o aplicativo através do link fornecido (http://127.0.0.1:5500/src/index.html). Ao abrir a página, ele encontrará um formulário com os seguintes campos:
 ![gráfico primeira pg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWozcGJqYW5xOXd5YTN6enptcmFkam04ejZjd21hcnkzajg2ZXM1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qQwa9AbtXLuQEQEVTu/giphy.gif)
 
