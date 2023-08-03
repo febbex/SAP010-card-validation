@@ -29,15 +29,21 @@ O usuário pode acessar o aplicativo através do link fornecido (http://127.0.0.
 
 ![gráfico primeira pg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWozcGJqYW5xOXd5YTN6enptcmFkam04ejZjd21hcnkzajg2ZXM1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qQwa9AbtXLuQEQEVTu/giphy.gif)
 
-## Número:  Irá mascarar os primeiros dígitos do cartão com "#" para preservar a segurança das informações.
-## Nome: Neste campo, o usuário pode inserir o nome associado ao cartão de crédito.
-## Validade Meses: O usuário pode selecionar o mês de validade do cartão a partir de uma lista suspensa.
-## Ano: O usuário pode selecionar o ano de validade do cartão a partir de uma lista suspensa.
-## CVC: O usuário pode inserir o código de verificação do cartão (CVC).
+ Número:  Irá mascarar os primeiros dígitos do cartão com "#" para preservar a segurança das informações.
 
-## Ao clicar no botão "Enviar", o aplicativo irá verificar se o número do cartão de crédito inserido é válido ou inválido, utilizando o algoritmo de Luhn. 
-## Se o número for válido, o aplicativo exibirá a mensagem "Parabéns, cartão validado!👏" no campo de resultado. Caso contrário, a mensagem exibida será "Cartão inválido, insira novamente☹️." 
-## O app também notifica caso tente enviar com o campo de número vazio a mesagem exibida será "Por favor, preencha o número do cartão ✍️"
+ Nome: Neste campo, o usuário pode inserir o nome associado ao cartão de crédito.
+
+ Validade Meses: O usuário pode selecionar o mês de validade do cartão a partir de uma lista suspensa.
+
+ Ano: O usuário pode selecionar o ano de validade do cartão a partir de uma lista suspensa.
+ 
+ CVC: O usuário pode inserir o código de verificação do cartão (CVC).
+
+Ao clicar no botão "Enviar", o aplicativo irá verificar se o número do cartão de crédito inserido é válido ou inválido, utilizando o algoritmo de Luhn. 
+
+Se o número for válido, o aplicativo exibirá a mensagem "Parabéns, cartão validado!👏" no campo de resultado. Caso contrário, a mensagem exibida será "Cartão inválido, insira novamente☹️." 
+
+O app também notifica caso tente enviar com o campo de número vazio a mesagem exibida será "Por favor,preencha o número do cartão ✍️"
 
 # Acesse Cartão Cultura
 Link: http://127.0.0.1:5500/src/index.html
