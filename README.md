@@ -25,7 +25,7 @@ Pode ser utilizado para pagar o cineminha, livrarias, teatros, eventos e também
 
 O aplicativo foi desenvolvido utilizando (HTML, CSS e JavaScript) e implementa a funcionalidade de validar números de cartões de crédito a parir do algoritmo de Luhn.
 
-O usuário pode acessar o aplicativo através deste link: [Cartão Cultua](https://febbex.github.io/SAP010-card-validation/src). Ao abrir a página, ele encontrará um formulário com os seguintes campos:
+O usuário pode acessar o aplicativo através deste link: [Cartão Cultura](https://febbex.github.io/SAP010-card-validation/src). Ao abrir a página, ele encontrará um formulário com os seguintes campos:
 
 ![gráfico primeira pg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWozcGJqYW5xOXd5YTN6enptcmFkam04ejZjd21hcnkzajg2ZXM1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qQwa9AbtXLuQEQEVTu/giphy.gif)
 
@@ -41,9 +41,14 @@ O usuário pode acessar o aplicativo através deste link: [Cartão Cultua](https
 
 Ao clicar no botão "Enviar", o aplicativo irá verificar se o número do cartão de crédito inserido é válido ou inválido, utilizando o algoritmo de Luhn. 
 
-Se o número for válido, o aplicativo exibirá a mensagem "Parabéns, cartão validado!👏" no campo de resultado. Caso contrário, a mensagem exibida será "Cartão inválido, insira novamente☹️." 
+Se o número for válido, o aplicativo exibirá a mensagem: "Parabéns, cartão validado!👏" no campo de resultado. Caso contrário, a mensagem exibida será: "Cartão inválido, insira novamente☹️." 
 
-O app também notifica caso tente enviar com o campo de número vazio a mesagem exibida será "Por favor, preencha o número do cartão ✍️"
+O app também notifica caso tente enviar com o campo de número vazio a mesagem exibida será: "Por favor, preencha o número do cartão ✍️".
 
 #  Cartão Cultura
+
 [Acesse aqui](https://febbex.github.io/SAP010-card-validation/src)
+
+Insira o seguinte número válido, para testar: 
+4556364607935616
+
