@@ -47,7 +47,7 @@ O app também notifica caso tente enviar com o campo de número vazio a mesagem 
 
 #  Cartão Cultura
 
-[Acesse aqui](https://febbex.github.io/SAP010-card-validation/src)
+[Acesse aqui](https://thamiresfebbo.github.io/SAP010-card-validation/src)
 
 Insira o seguinte número válido, para testar: 
 4556364607935616
