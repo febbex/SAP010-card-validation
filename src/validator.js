@@ -1,7 +1,7 @@
 const validator = {
   isValid: function (creditCardNumber) {
-    let soma = 0;
-    let dobrar = false;
+    let soma = 0; //variavel deve ser 0 após a soma dos digitos
+    let dobrar = false; //variavel usada para dobrar o prox numero do cartão
     // 'for' = a loop
     for (let i = creditCardNumber.length - 1; i >= 0; i--) {
       let digit = parseInt(creditCardNumber.charAt(i));
@@ -20,9 +20,9 @@ const validator = {
   },
   //função pra mascarar os digítos do cartão no espelho
   maskify: function (creditCardNumber) {
-    const digitosVisiveis = 4;
+    const digitosVisiveis = 4;   //quantidade e número visiveis 
     const mascaraCaracteres = Math.max(creditCardNumber.length - digitosVisiveis, 0);
-    return '#'.repeat(mascaraCaracteres) + creditCardNumber.slice(-digitosVisiveis);
+    return '#'.repeat(mascaraCaracteres) + creditCardNumber.slice(-digitosVisiveis); //slice para contar a partir do final
   }
 };
 export default validator;

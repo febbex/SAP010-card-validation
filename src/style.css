@@ -11,17 +11,20 @@
     text-transform: uppercase;
 
 }
+
 .container .banner img {
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .container .banner h1 {
     margin-top: 30px;
     color: #f64fa5;
 
 }
+
 /* plano de fundo da página */
 .container {
     min-height: 5vh;
@@ -32,10 +35,12 @@
     flex-flow: column;
     padding-bottom: 60px;
 }
+
 .container img {
     height: 100px;
 }
-/* */
+
+/* cor do box e dimenses  */
 .container form {
     background: #ffffff90;
     border-radius: 15px;
@@ -47,17 +52,20 @@
 
 }
 
+/* magem entre os campos*/
 .container form .inputBox {
     margin-top: 20px;
 
 }
 
+/* cor dos campos externos */
 .container form .inputBox span {
     display: block;
     color: #f64fa5;
     padding-bottom: 5px;
 }
 
+/* cor dos campos internos */
 .container form .inputBox input,
 .container form .inputBox select {
     width: 100%;
@@ -68,16 +76,19 @@
 
 }
 
+/* organização dos campos validade/ano/cvc - um do lado do outro */
 .container form .flexbox {
     display: flex;
     gap: 15px;
 }
 
+/* organização dos campos validade/ano/cvc - um do lado do outro */
 .container form .flexbox .inputBox {
-    flex: 1 1 150px;
+    flex: 1 1 50px;
 
 }
 
+/* personalização do botão enviar */
 .container form .Enviar-btn {
     width: 100%;
     background: linear-gradient(45deg, pink, deeppink, pink);
@@ -85,10 +96,12 @@
     padding: 10px;
     color: #fff;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer; /* cursor com maozinha */
     transition: .2s linear;
     break-before: 2s linear;
 }
+
+/* efeito do botão enviar */
 
 .container form .Enviar-btn:hover {
     letter-spacing: 2px;
@@ -96,14 +109,18 @@
 
 }
 
+/* personalização espelho do cartão */
 .container .card-container {
     margin-bottom: -150px;
+    /* margem entre o cartão e o box de campos */
     position: relative;
+    /* tamanho do cartão */
     height: 250px;
     width: 400px;
 
 }
 
+/* personalização espelho do cartão */
 .container .card-container .front {
     position: absolute;
     height: 100%;
@@ -115,10 +132,12 @@
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
     padding: 10px;
-    transform:perspective(1000px) rotateY(0deg);
+    /* efeito frente/cvc */
+    transform: perspective(1000px) rotateY(0deg);
     transition: transform .4s ease-out;
 }
 
+/* personalização logos do cartão */
 .container .card-container .front .assets {
     display: flex;
     align-items: center;
@@ -130,6 +149,7 @@
     height: 90px;
 }
 
+/* personalização campos espelhados */
 .container .card-container .front .card-number-box {
     padding: 15px 0;
     font-size: 20px;
@@ -153,6 +173,8 @@
 
 }
 
+/* personalização espelho do card traseira */
+
 .container .card-container .back {
     position: absolute;
     top: 0;
@@ -165,24 +187,29 @@
     text-align: right;
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
-    transform:perspective(1000px) rotateY(180deg);
+    /* efeito cvc/frente */
+    transform: perspective(1000px) rotateY(180deg);
     transition: transform .4s ease-out;
 }
-.container .card-container .back .stripe{
+
+.container .card-container .back .stripe {
     background: #000;
     width: 100%;
     margin: 10px 0;
     height: 50px;
 
 }
-.container .card-container .back .box{
+
+.container .card-container .back .box {
     padding: 0 20px;
 }
-.container .card-container .back .box span{
+
+.container .card-container .back .box span {
     color: #fff;
     font-size: 15px;
 }
-.container .card-container .back .box .cvc-box{
+
+.container .card-container .back .box .cvc-box {
     height: 60px;
     padding: 10px;
     margin-top: 5px;
@@ -191,8 +218,26 @@
     border-radius: 5px;
     width: 100%;
 }
-.container .card-container .back .box img{
+
+.container .card-container .back .box img {
     margin-top: 30;
     height: 70px;
 
+}
+@media(max-width:450px) {
+    body{
+        display: block;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: x-large;
+        align-items: baseline;
+        text-justify: auto;
+    }
+    .container{
+        display: auto;
+        width:auto;
+        height: auto; 
+       
+    }
 }

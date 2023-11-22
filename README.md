@@ -52,3 +52,9 @@ O app também notifica caso tente enviar com o campo de número vazio a mesagem 
 Insira o seguinte número válido, para testar: 
 4556364607935616
 
+## Desenvolvedora
+
+- [@thamiresfebbo](https://github.com/thamiresfebbo)
+<div>
+  <a href="https://www.linkedin.com/in/thamiresfebbo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>

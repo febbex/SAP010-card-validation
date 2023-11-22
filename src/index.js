@@ -2,11 +2,11 @@ import validator from './validator.js';
 
 // Função para validar o formulário
 function validar(event) {
-  event.preventDefault();
+  event.preventDefault(); //evita que a pág seja recarregada e que os dados sejam enviados quando o botão "enviar" é clicado
   const ccNumberInput = document.getElementById('creditCardNumber');
   const validationResult = document.getElementById('validationResult');
 
-  const ccNumber = ccNumberInput.value.trim();
+  const ccNumber = ccNumberInput.value.trim(); // trim() = não deixar espaço em branco no número de cartão, value =  valor atualmente inserido
   const isValid = validator.isValid(ccNumber);
 
 
@@ -50,13 +50,14 @@ document.querySelector('.meses-input').oninput = () => {
 document.querySelector('.Ano').oninput = () => {
   document.querySelector('.exp-year').innerText = document.querySelector('.Ano').value;
 }
+//efeito ao clicar frente/verso
 document.querySelector('.cvc-input').onmouseenter = () => {
-  document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(180deg)';
-  document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)';
+  document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(180deg)'; 
+  document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)'; 
 }
 document.querySelector('.cvc-input').onmouseleave = () => {
-  document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(0deg)';
-  document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(180deg)';
+  document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(0deg)'; 
+  document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(180deg)'; 
 }
 document.querySelector('.cvc-input').oninput = () => {
   document.querySelector('.cvc-box').innerText = document.querySelector('.cvc-input').value;
